@@ -1,0 +1,45 @@
+/* Simple Selector */
+.sim-class{
+    /* border: 2px ; */
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin: auto;
+}
+#sim-id{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    transform: translateY(100px);
+}
+div  article {
+    background-color: rgb(255, 0, 0);
+}
+div  > aside {
+    background-color: hwb(240 0% 0%);
+}
+div + address {
+    background-color: blueviolet;
+}
+div ~ header {
+    background-color: lightsalmon;
+    text-transform: capitalize;
+}
+.Content {
+    background-color: blueviolet;
+    padding: 30px;
+    margin: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    height: 100px;
+    width: 150px;
+    outline-style: dotted;
+    outline-color: palevioletred;
+}
+
+
+img {
+    position: absolute;
+    top: 700px;
+    z-index: -1;
+  }

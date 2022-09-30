@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- CSS selector  1.simple Selector  2.Combinator Selector 3.Psudo Element  4.Psudo Class 5.Attribute Selector-->
+    <!-- 1.simple Selector - class , id -->
+    <div class="sim-class">
+      <div id="sim-id"></div>
+    </div>
+
+    <!-- 2.combinator Selector -->
+    <!-- Descendant Selector , Child Selector ,Adjacent sibling selector , General sibling selector  -->
+    <!-- Descendant Selector  - all the child element will be add in style-->
+    <div>
+      <article>content 1</article>
+      <article style="margin: 10px 0">content 2</article>
+    </div>
+
+    <!-- Child Selector --particular child only add in style -->
+    <div>
+      <aside>Content 1</aside>
+      <aside style="margin-top: 10px">Content 2</aside>
+      <section>
+        <aside>Content 3</aside>
+      </section>
+    </div>
+
+    <!-- Adjacent Sibling Selector  -- parent element after the one an only child will be add in style-->
+    <div>
+      <address>Add1</address>
+    </div>
+    <address>Add3</address>
+    <div>
+      <address>Add4</address>
+    </div>
+    <address>Add5</address>
+
+    <!-- General Siblinng Selector -- parent after the all tag will be add in style-->
+    <div>
+      <header>Hello 1</header>
+    </div>
+    <header>Hello 1</header>
+    <code>Hello</code>
+    <header>Hello 1</header>
+
+    <!-- border, height , width , outline , margin , padding -->
+    <div class="Content">Content</div>
+
+    <!-- Z -index -->
+    <div>
+        <img style="z-index: -1;" src="lap.jpg" alt="" srcset="" />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsa
+        repudiandae accusamus, commodi iure quisquam blanditiis totam odit
+        aliquid enim itaque earum dolor deserunt, maiores, temporibus quis modi
+        quas aperiam!
+      </p>
+    </div>
+    
+
+    <!-- <h1>This is a heading</h1>
+<img src="lap.jpg">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p> -->
+
+  </body>
+</html>

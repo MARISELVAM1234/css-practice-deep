@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+/* flex-direction: row-reverse; */
+
+}
+.con-item {
+    border: 2px solid;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#child3{
+ order: 2;
+}
+#child1{
+    order: 4;
+}
+#child3{
+    order: 1;
+}
+#child2{
+    order: 3;
+}
